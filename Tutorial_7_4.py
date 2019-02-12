@@ -3,7 +3,7 @@
 ##################################################
 
 import sys
-from PySide2.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QComboBox
+from PySide2.QtWidgets import QApplication, QWidget, QLabel, QComboBox
 
 
 class Example(QWidget):
