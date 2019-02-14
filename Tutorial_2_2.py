@@ -24,6 +24,7 @@ class Example(QMainWindow):
 
         self.setGeometry(300, 300, 250, 150)
         self.setWindowTitle('MenuBar')
+        self.statusBar().showMessage("Ready")
         self.show()
 
     def __init__(self):
