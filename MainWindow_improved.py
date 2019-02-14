@@ -10,7 +10,7 @@ class Form(QObject):
     def __init__(self, ui_file, parent=None):
         super(Form, self).__init__(parent)
         uifile = QFile(ui_file)
-        uifile.open(QFile.ReadOnly)
+        # uifile.open(QFile.ReadOnly)
 
         loader = QUiLoader()
         self.window = loader.load(uifile)

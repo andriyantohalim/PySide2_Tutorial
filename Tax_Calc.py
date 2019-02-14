@@ -7,7 +7,7 @@ class MyApp(QtWidgets.QMainWindow):
 
     def initUI(self, ui_file):
         uifile = QtCore.QFile(ui_file)
-        uifile.open(QtCore.QFile.ReadOnly)
+        # uifile.open(QtCore.QFile.ReadOnly)
 
         loader = QUiLoader()
         self.window = loader.load(uifile)
